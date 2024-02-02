@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: roboto, sans-serif;
+}
+.hero{
+    display: flex;
+    
+   
+}
+.hero-1{
+    width: 70%;
+}
+body{
+    background-color:rgb(226, 243, 250);
+    margin: 20px;
+}
+
+#nav{
+    font-size: 40px;
+    color:white;
+    background-color:rgb(153, 176, 241);
+    padding:30px;
+    text-align: center;
+    
+}
+
+
+.weather-main{
+    display: flex;
+    margin:50px; 
+    background-color: rgb(153, 176, 241);
+    padding:50px;
+    padding-right:px;
+    font-size: 20px;
+    width:980px;
+    border:none;
+    border-radius:5px;
+    color:white;
+
+}
+#london-para{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.london p{
+    padding-bottom: 5px;
+}
+.clo-rain-sun {
+    margin-left:550px;
+    padding-top:20px;
+    font-size: 60px;
+}
+h1{
+    padding: 20px;
+    margin:30px;
+    width: 50%;
+}
+.second-div{
+    display: flex;
+    margin-left: 40px;
+
+
+}
+.second-div-1{
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.123);
+    height:200px;
+    width:15%;
+    padding:20px;
+    font-size: 15px;
+    margin-right: 110px;
+    text-align: justify;
+    justify-content: center;
+}
+.second-div-1 p{
+    padding-bottom: 5px;
+}
+.second-div-1 h3{
+    padding-bottom: 5px;
+}
+.second-div-1 i{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+    
+
+
+.aside-1{
+    width:80%;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.123);
+    border:2px solid transparent;
+    border-radius: 5px;
+    margin-top:50px;
+    
+}
+.aside h3{
+    font-size: 30px;
+    text-align: center;
+    padding:20px;
+}
+.aside p{
+    padding:20px;
+    font-weight: 200;
+}
+/*.aside-2 button{
+    font-size: 20px;
+    
+    margin:10px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(157, 202, 240);
+*/
+
+.aside-2 p{
+    padding:20px;
+    padding-left: 50px;
+    padding-right:50px;
+    font-size: 20px;
+    width:300px;
+    margin:10px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(182, 214, 240);
+    text-align: center;
+    margin-left: 200px;
+}
+#para{
+    margin-left: 0px;
+    margin-right:180px;
+    padding: 0px;
+    padding-top:20px;
+}

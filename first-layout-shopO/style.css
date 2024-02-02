@@ -1,0 +1,663 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f8f8f8;
+}
+
+/* header-start*/
+
+header{
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+    font-size: 17px;
+    padding: 15px;
+    font-family: roboto;
+   
+}
+.header-1{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    
+    
+}
+.header-first-list{
+    float: left;
+}
+.header-last-list{
+    float: right;
+    margin-left: 700px;
+}
+.header-first-list li{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+
+}
+.header-last-list li{
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+    
+}
+/*header-end*/
+
+/* nav section start*/
+.navbar-search-section{
+    height: 70px;
+    width: 1339px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    margin-left: 333px;
+}
+.nav-search-section-search{
+    width: 450px;
+    height: 45px;
+    margin-left: 200px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+.nav-search-section-search input{
+    max-width: 250px;
+    margin-top: 7px;
+    margin-left: 5px;
+    border: transparent;
+    width: 250px;
+    font-size: 15px;
+    padding: 5px;
+    color: lightgray;
+    outline: none;
+    
+}
+.navbar-dropdown-section{
+    width: 100%;
+    height: 60px;
+    background-color: #ffba38;
+}
+.navbar-dropdown-section-child{
+    position: relative;
+    width: 1339px;
+    height: 60px;
+    margin-left: 333px;
+}
+/*.navbar-dropdown-section-child{
+    width: 250px;
+    height: 50px;
+    margin-top: 0px;
+    border: 1px solid black;
+    background-color: ;
+
+}*/
+.working-dropdown{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+
+}
+.dropdown-content{
+    display: none;
+}
+.dropdown-content a{
+    display: block;
+    width: 270px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.dropdown-content a:hover{
+    background-color: #ffba38;
+}
+.working-dropdown:hover .dropdown-content{
+    display: block;
+    box-shadow: 0px 2px 15px 3px rgba(0, 0, 0, 0.2);
+}
+.dropdown-list{
+    
+    margin-left: 350px;
+}
+.dropdown-list li{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: roboto;
+    font-weight: 500;
+
+}
+.dropdown-list li button{
+    position: absolute;
+    bottom: 10px;
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    
+}
+/*nav section end*/
+/* hero section start*/
+.container{
+    width: 1239px;
+    margin-left: 333px;
+}
+.hero{
+    display: flex;
+    margin: 70px 0px;
+    
+    
+}
+.hero-right-side{
+    background-color: white;
+    margin: 0px 0px 20px 99px;
+}
+.hero-bottom-side{
+    height: 100px;
+    width: 1239px;
+    display: flex;
+    /*box-shadow: 0px 1px 15px 2px rgba(0, 0, 0, 0.2);*/
+    background-color: white;
+   
+}
+.service{
+    display: flex;
+    width: 25%;
+    height: 50px;
+    padding: 30px 20px;
+    padding-bottom: 30px;
+
+}
+.service-icon{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(230, 170, 59)
+    
+}
+.service p{
+    line-height: 1.5;
+}
+/*hero section end/*
+/*game world section start*/
+.game-world-title{
+    width: 1239px;
+    display: flex;
+    font-family: roboto;
+
+
+}
+.game-world-title li{
+    margin-top: 40px;
+    float: left;
+    list-style-type: none;
+    font-size: 17px;
+}
+.game-world-card-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.game-world-card{
+    margin-left: 10px;
+    width: 25%;
+    height: 380px;
+    /*box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.2);*/
+    background-color: white;
+    padding: 30px;
+    overflow: hidden;
+}
+.game-world-card img{
+    width: 100%;
+    margin-top: 40px;
+}
+.game-world-card i{
+    color: #ffba38;
+    margin-top: 10px;
+}
+.game-world-card p{
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: roboto;
+    line-height: 1.5;
+
+}
+/* game world section end*/
+/* brand log section start*/
+.shop-by-brand{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200x;
+    margin-top: 40px;
+    margin-left: 5px;
+    
+}
+.brand-images{
+    width: 16%;
+    height: 112px;
+    display: flex;
+    padding: 40px 20px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    background-color: white;
+}
+.shop-by-brand img{
+    width: 128px;
+    height: 32px;
+    margin-left: 10px;
+}
+.shop-by-brand-para p{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0px;
+    margin-bottom: 0px;
+    font-family: roboto;
+    
+}
+/* brand logo section end*/
+/* advertise section start*/
+.advertise-section{
+    display: flex;
+    margin: 50px 0px 0px 0px;
+    justify-content: space-between;
+}
+.advertise-left-coulum{
+    width: 50%;
+    height: 460px;
+    border: 0cqh solid black;
+    margin-right: 30px;
+    display: flx;
+    background-color: #fff9ed;
+}
+.advertise-right-coulum{
+    width: 50%;
+    height: 460px;
+    border: 0px solid black;
+}
+.advertise-left-coulum-top-side{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0px;
+}
+.days{
+    height: 150px;
+    width: 20%;
+    border: none;
+    margin-left: 20px;
+}
+.days-text{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    color: red;
+    background-color: white;
+    font-family: roboto;
+}
+.days-para{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.advertise-left-coulum-middle-side-text{
+    
+    padding: 40px 0px 40px 30px;
+    font-size: 40px;
+    font-family: roboto;
+    font-weight: 600;
+
+}
+.advertise-left-coulum-middle-side-text p{
+    display: inline;
+}
+.advertise-left-coulum-bottom-side-text{
+    padding-left: 30px;
+
+}
+.advertise-left-coulum-bottom-side-text p{
+    
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 500;
+}
+.advertise-left-coulum-bottom-side-img{
+   float: left;
+
+}
+.advertise-left-coulum-bottom-side  p{
+    display: inline;
+}
+.advertise-left-coulum-bottom-side{
+    display: flex;
+}
+.advertise-left-coulum-bottom-side-img img{
+    width: 250px;
+    height: 180px;
+    margin: 0px 30px 10px 200px;
+    
+
+}
+.advertise-right-coulum{
+    padding: 40px;
+    background-color: #e5eaee;
+}
+.advertise-right-coulum p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: roboto;
+}
+.advertise-right-coulum h3{
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+.advertise-right-coulum-middle{
+    margin: 20px 0px 20px 0px;
+    margin-right: 20px;
+
+}
+.advertise-right-coulum img{
+    margin-top: 10px;
+}
+/* advertise section end*/
+/* top selling section start*/
+.top-selling-products-section-title{
+    display: inline;
+    margin-top: 30px;
+    
+}
+.top-selling-products-section-title h3{
+    float: left;
+    font-family: roboto;
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+.top-selling-products-section-title p{
+    float: right;
+    font-family: roboto;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.top-selling-produsts-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.top-selling-products-section-item{
+    width: 49%;
+    height: 250px;
+    border: 0px solid black;
+    padding: 30px;
+    background-color: white;
+    margin-bottom: 25px;
+    
+}
+.top-selling-products-section-item img{
+    display: inline;
+    float: left;
+}
+.top-selling-products-section-item-right i{
+    color: #ffba38;
+    font-size: 20px;
+    margin-top: 20px;
+
+
+}
+.top-selling-products-section-item-right p{
+    font-size: 17px;
+    font-family: roboto;
+    line-height: 1.5;
+    margin-top: 20px;
+
+}
+.top-selling-products-section-item-right button{
+    padding: 5px 20px 5px 20px;
+    background-color: #ffba38;
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    margin-top: 20px;
+
+    
+
+}
+/* top selling section end*/
+/* best seller section start*/
+.best-seller-title{
+    display: flex;
+    margin-top: 20px;
+
+}
+.best-seller-title h3{
+    display: inline;
+    float: left;
+    font-family: roboto;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.best-seller-title p{
+    margin-left: 1015px;
+    font-family: roboto;
+    font-size: 17px;
+    margin-top: 35px;
+}
+.best-seller{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+    
+}
+.best-seller-img{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: transparent;
+    border-radius: 100px;
+    
+}
+.best-seller-img img{
+    margin: 30px 0px 0px 30px;
+}
+/* best seller section end*/
+/* ads section start*/
+.ads-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.ads-section img{
+    
+    margin-right: 0px;
+}
+/* ads section end*/
+/* popular section start*/
+
+
+/* popular section end/*
+/*second ads section start*/
+.second-ads{
+    margin-top: 50px;
+}
+.second-ads img{
+    width: 100%;
+}
+/* second ads section end*/
+/* new arrivals section start/*
+
+
+
+/* new arrivals section end*/
+/* third ads sectino start*/
+.third-ads-section{
+    margin-top: 50px;
+}
+.third-ads-section img{
+    width: 100%;
+}
+/*third ads section end*/
+/*popular sales section start*/
+.popular-sales-section{
+    display: flex;
+    margin-top: 100px;
+}
+.popular-sales-section-left-coulum{
+    width: 33.3%;
+    margin-right: 4px;
+    
+    
+}
+.popular-sales-section-left-coulum-1{
+    height: 120px;
+    padding: 30px;
+    padding-top: 20px;
+    background-color: white;
+    margin-bottom: 3px;
+}
+.popular-sales-section-left-coulum-1 p{
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 600;
+}
+.popular-sales-section-left-coulum img{
+    float: left;
+    width: 100px;
+    height: 90px;
+    margin-right: 20px;
+    
+}
+/*popular sales section end*/
+/* discount sectin start*/
+.discount-section{
+    background-image: url(/best-seller-images/discount-banner-1.jpg);
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.discount-section-child{
+    width: 545px;
+    
+}
+.discount-section-child h3{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 100px;
+    font-family: roboto;
+    font-size: 40px;
+    
+}
+.discount-section-child p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: roboto;
+    font-size: 17px;
+}
+#discount-section-input{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+
+}
+#search{
+    padding: 15px;
+    width: 75%;
+    border: none;
+
+}
+#submit{
+    padding: 14px;
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: 500;
+    width: 25%;
+    background-color: #ffba38;
+    border: none;
+}
+/* footer section*/
+.footer{
+    width: 1239px;
+    margin-left: 333px;
+}
+.footer-top{
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    border-bottom: 1px solid lightgray;
+    
+}
+.footer-middle{
+    display: flex;
+    font-family: roboto;
+    font-size: 15px;
+    border-bottom: 1px solid lightgray;
+
+}
+.footer-middle-coulum-1{
+    width: 25%;
+    height: 200px;
+    border: 0px solid black;
+    padding: 30px;
+    line-height: 1.5;
+    color: gray;
+}
+.footer-middle-coulum-1 li{
+    list-style-type: none;
+    line-height: 2;
+
+}
+.footer-bottom{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.footer-bottom{
+    display: flex;
+}
+.footer-bottom-left{
+    color: gray;
+    font-size: 17px;
+}
+.footer-bottom-left i{
+    margin-right: 10px;
+}
+.footer-bottom-left p{
+    display: inline;
+}
+.footer-bottom-right img{
+    margin-left: 0px;
+}
+

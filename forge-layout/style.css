@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    padding:30px;
+    max-width:100%;
+    
+    
+}
+.first-item{
+    display: flex;
+    margin-left: 300px;
+}
+.phone-logo{
+    display:flex;
+    font-size: 30px;
+    padding-right: 10px;
+    margin-top:5px;
+
+}
+.logo{
+    margin-left:350px;
+}
+.cart{
+    display: flex;
+    margin-left:400px;
+}
+.cart-logo{
+    font-size: 30px;
+    padding-right:5px;
+}
+.hero{
+    background-color:rgb(236, 234, 234);
+    height:250px;
+    max-width:100%;
+    margin-bottom: 10px;
+    
+}
+.hero-list{
+    display:inline-block;
+    padding:25px;
+    background-color:black;
+    max-width:30%;
+    margin-left:60%;
+    border: none;
+    
+}
+.hero-list a{
+    color:white;
+    text-decoration: none;
+    padding-right:30px;
+}
+.hero-list-div {
+    display:flex;
+    
+}
+.hero-title{
+    margin-left:300px;
+    padding-top:20px;
+}
+#best-product-para{
+    font-size: 20px;
+   margin-bottom: 5px;
+
+
+}
+#blog-para{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom:0px;
+}
+#blog-home{
+    font-size:15px;
+    padding-top: 5px;
+}
+.second-hero{
+    display: flex;
+    margin-bottom: 60px;
+    
+    
+}
+.second-hero-1{
+    background-image: url(hero-1.png);
+    background-repeat:no-repeat;
+    height: 350px;
+    max-width:650px;
+}
+.second-hero-2{
+    background-image: url(forge-gero-2.png);
+    background-repeat:no-repeat;
+    height: 350px;
+    max-width:650px;
+}
+.second-hero-3{
+    background-image: url(hero-3.png);
+    background-repeat:no-repeat;
+    height: 350px;
+    max-width:650px;
+}
+#new-collection{
+    font-size:30px;
+    font-weight:800;
+    margin:0px;
+}
+#hand-bag{
+    padding-left:40px;
+    margin-top:0px;
+    font-size:30px;
+    font-weight:800;
+}
+.second-hero-1-details{
+    margin-left:60px;
+    margin-top:50px;
+}
+#frist-button{
+    padding:10px;
+    font-size: 15px;
+    margin-left:70px;
+    margin-top:20px;
+}
+.second-hero-2-details{
+    margin-left:350px;
+    margin-top:100px;
+}
+#women_s{
+    margin-left: 20px;
+    padding-bottom:10px;
+    font-size: 30px;
+    font-weight:800;
+}
+#summer{
+    margin-left:30px;
+    font-size: 30px;
+    padding-bottom:10px;
+    font-weight:800;
+}
+#collection{
+    font-size: 30px;
+    font-weight:800;
+    margin-right:1000px;
+}
+#view-collection{
+    padding:10px;
+    font-size: 15px;
+    margin-left:30px;
+    margin-top:20px;
+
+}
+.second-hero-3-details{
+    margin-left: 210px;
+    margin-top:100px;
+    font-size: 30px;
+    font-weight: 800;
+}
+#t-shirt{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+#for-all{
+    margin-left:40px;
+    padding-top:10px;
+}
+#shop-2{
+    margin-left:50px;
+    margin-top:20px;
+    padding:10px;
+    font-size:15px;
+}
+.container{
+    display: flex;
+    margin-left:400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.blog-section-1{
+    display:flex;
+    width:40%;
+    font-size: 15px;
+    margin-bottom: 30px;
+    
+
+}
+.blog-sec-para h4{
+    margin-left:30px;
+    margin-top:20px;
+    padding-left: 50px;
+
+}
+.blog-sec-para p{
+    margin-left:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:grey;
+    
+}
+#have{
+    padding-left:120px;
+    
+}
+#our-band{
+    text-align: center;
+    font-size:20px;
+    font-weight: 800;
+    padding:30px;
+}
+.footer-logo{
+    display: flex;
+    margin-left:400px;
+    
+}
+.footer-logo img{
+    margin-right: 150px;
+}
+footer{
+    margin-bottom: 20px;
+}

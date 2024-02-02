@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: skyblue;
+}
+#Spotify{
+    text-align: center;
+    margin-right: 100px;
+    margin-top:20px;
+}
+.main{
+    background-color: white;
+    margin-left: 650px;
+    margin-top:30px;
+    width:550px;
+    height:650px;
+    border:none;
+    border-radius: 10px;
+    
+    
+}
+.second{
+    padding:20px 20px;
+}
+#frist-para{
+    font-size: 25px;
+    color: gray;
+    padding-bottom: 10px;
+
+}
+#second-para{
+    color:rgb(182, 178, 178);
+    padding-bottom: 10px;
+}
+.frist_name{
+    padding-right: 20px;
+}
+.frist_name label{
+    font-size: 20px;
+
+}
+.frist_name input{
+    width: 242px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(241, 241, 241);
+}
+.last_name label{
+    font-size: 20px;
+
+}
+.last_name input{
+    width: 248px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(240, 240, 240);
+}
+.fldiv{
+    padding-bottom:20px;
+}
+.email{
+    padding-right: 20px;
+}
+.email label{
+    font-size: 20px;
+
+}
+.email input{
+    width: 242px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(240, 240, 240);
+
+}
+
+
+.phone label{
+    font-size: 20px;
+
+}
+.phone input{
+    width: 248px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(240, 240, 240);
+
+}
+.epdiv{
+    padding-bottom:20px;
+}
+.address label{
+    font-size: 20px;
+
+}
+.address input{
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(240, 240, 240);
+
+}
+.address{
+    padding-bottom:20px;
+}
+.address_2 label{
+    font-size: 20px;
+
+}
+.address_2 input{
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(240, 240, 240);
+
+}
+.address_2{
+    padding-bottom: 20px;
+}
+.city{
+    padding-right: 12px;
+}
+.city label{
+    font-size: 20px;
+
+}
+.city input{
+    width: 160px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(240, 240, 240);
+
+}
+.State{
+    padding-right: 12px;
+}
+.State label{
+    font-size: 20px;
+
+}
+.State input{
+    width: 160px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(240, 240, 240);
+
+}
+.zip-code label{
+    font-size: 20px;
+
+}
+.zip-code input{
+    width: 165px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(240, 240, 240);
+
+}
+.country label{
+    font-size: 20px;
+
+}
+.country input{
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(240, 240, 240);
+
+}
+
+
+.button{
+    margin-left:40%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    
+    
+}
+.button input{
+    width:80px;
+    padding: 10px;
+    border: none;
+    border-radius: none;
+    background-color:rgb(247, 51, 51);
+    cursor: pointer;
+    width: 100px;
+    
+
+   
+}
+.fldiv{
+    display: flex;
+}
+.epdiv{
+    display:flex;
+}
+.cspdiv{
+    display:flex;
+    padding-bottom: 20px;
+
+}
+#have-acc{
+    text-align: center;
+    font-size: 15px;
+}
+#have-acc span{
+    color:blue;
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,500&family=Lora:ital@1&family=Poppins&family=Roboto:wght@400;900&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, #833434, #064667);
+}
+#city
+{
+    position: relative;
+    transform-style: preserve-3d;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY('360deg');
+    }
+    100%
+    {
+        transform: rotateX('-30deg') rotateY(0deg);
+    }
+}
+#city::before{
+    content: '';
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    width: 400vh;
+    height: 400vh;
+    background: linear-gradient(45deg,#833434, #064667);
+    transform: translate(-50%, 250px) rotateX(90deg);
+}
+.skyscrapper-one
+{
+    position: relative;
+    width: 200px;
+    height: 600px;
+    transform-style: preserve-3d;
+
+}
+.skyscrapper-one div
+{
+    position: absolute;
+    top: o;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+.skyscrapper-one div span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    background: #fff;
+    height: 100%;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.25);
+}

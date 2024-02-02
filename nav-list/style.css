@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    padding-left:20px;
+}
+#navbar{
+    width: 100%;
+    background-color:   hsl(177, 50%, 46%);
+    padding: 10px;
+    display: flex;
+    font-size: 20px;
+}
+#navbar input{
+    font-size: 19px;
+    border-radius: 8px;
+    border-color: white;
+    margin-left: 950px;
+    text-align: center;
+    margin-bottom: 10px;
+   
+
+}
+#navbar-n{
+    font-size: 35px;
+    margin-top:10px;
+   
+}
+#iframe{
+    text-align:center;
+    margin-top:5px;
+    background-color:   #c7f8e5;
+    padding:20px;
+    display: flex;
+}
+.lorem{
+    float:left;
+    height:auto;
+    width:50%;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.lorem h1{
+    text-align: center;
+
+}
+hr{
+    counter-reset: black;
+}
+.information{
+    height: 400px;
+    width: 100%;
+    background-color: #ddeec2;
+
+}
+.information{
+    display: flex;
+}
+.history{
+    margin-top: 30px;
+    width: 50%;
+    height: 300px;
+    border: 3px solid rgb(84, 211, 190);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.history p{
+    padding: 40px;
+
+}
+.history h1{
+    text-align: center;
+}
+.building {
+    margin-top: 30px;
+    width: 50%;
+    height: 300px;
+    border: 3px solid rgb(84, 211, 190);
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right:20px;
+}
+.building h1{
+    text-align:center;
+}
+.building p{
+    padding: 40px;
+    
+
+}

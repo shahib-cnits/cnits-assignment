@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    position: relative;
+}
+.nav-logo{
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px;
+
+}
+.nav-items {
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    margin-right: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.nav-items ul{
+    display: flex;
+}
+.nav-items a{
+    text-decoration: none;
+    color: black;
+}
+.nav-items li{
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+
+    
+
+.nav-items li:hover {
+    border-bottom: 2px solid black;
+    
+
+}
+.nav-icons{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.nav-logo .bar{
+    right: 0;
+    position: absolute;
+    padding: 10px;
+    position: fixed;
+}
+/*hero section*/
+
+.hero-text-main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero{
+    flex-direction: column;
+}
+.hero-text{
+    font-size: 50px;
+    text-align: center;
+    display: block;
+}
+.image-gall-text{
+    display: flex;
+    
+    
+    text-align: center;
+    font-size: 25px;
+    
+    padding: 10px;
+   
+    
+}
+.image-gall-text h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+/* image gallery section*/
+.image-gallery{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.row{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+}
+.column{
+    width: 25%;
+    padding: 0px 5px;
+    overflow: hidden;
+
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+@media (max-width: 1000px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  @media (max-width: 500px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 1000px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .nav-icons{
+        display: none;
+    }
+    .nav-logo{
+        justify-content: center;
+    }
+    .nav-items{
+        flex-direction: column;
+        align-items: center;
+        display: inline;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .nav-items ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav-items li{
+        display: inline;
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+  }

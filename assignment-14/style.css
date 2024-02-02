@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 50px 300px 0px 300px;
+}
+.para{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    
+
+}
+.lorem::first-line{
+    font-size: 25px;
+    color: tomato;
+    font-variant: small-caps;
+    font-family: Lobster;
+
+}
+.lorem::first-letter{
+    font-size: 40px;
+    color: #363062;
+}
+
+
+#f-link-para{
+    float: left;
+    font-size: 25px;
+    padding-top: 20px;
+    
+}
+/*.section{
+    width: 50%;
+    height: 400px;
+}*/
+.section-left{
+    height: 70px;
+}
+a:visited {
+    color: green;
+    text-decoration: underline;
+}
+a:link{
+    color: purple;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: red;
+}
+#hover-para{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.div-hover{
+    height: 50px;
+    width: 500px;
+    background-color: greenyellow;
+}
+.div-hover p{
+    
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.div-hover:hover{
+    background-color: black;
+    color: white;
+}
+.main-section{
+    
+}
+.section-right{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.section-right p:first-child {
+    color:red;
+
+}
+.main-section-middle{
+    display: flex;
+}
+.range{
+    width: 50%;
+    height: 400px;
+    
+}
+.range input{
+    margin-left: 270px;
+    margin-top: 150px; 
+}
+input:in-range{
+    border: 3px solid green;
+}
+.focus{
+    width: 50%;
+    height: 400px;
+    
+}
+.focus h3{
+    font-size: 25px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+form{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+}
+form input:focus{
+    background-color: blanchedalmond;
+}
+.main-section-bottom li:nth-child(2) {
+    background: lightgreen;
+}
+li:nth-child(5) {
+    background: #2D9596;
+}
+.main-section-bottom{
+    padding: 10px;
+}
+.main-section-bottom li{
+    line-height: 1.5;
+    font-size: 17px;
+
+}
+.main-last-section{
+    display: flex;
+}
+.last-section-left{
+    
+    line-height: 1.5;
+    width: 50%;
+    height: 200px;
+    padding-top: 90px;
+}
+
+
+.last-section-left ::marker{
+    color: red;
+}
+::selection{
+    color: white;
+    background: #f7d64e;
+}
+.last-section-right{
+    padding: 20px;
+    padding-top: 100px;
+
+}
+.pseudo-bofore-para{
+    height: 200px;
+    
+}
+.pseudo-bofore-para p{
+    font-size: 25px;
+   text-align: center;
+    
+}
+.pseudo-bofore-para p::after{
+    content: url(images.png);
+}
+.pseudo-bofore-para p::before{
+    content: url(images.png);
+}
+/*p:first-child{
+    color: #D0A2F7;
+
+}
+.first-child{
+    padding: 20px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    
+}
+.child{
+    float: left;
+    padding: 20px;
+    padding-left: 0px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.para-hover p{
+    float: left;
+    display: none;
+    width: 300px;
+    font-size: 25px;
+    background-color: yellowgreen;
+    padding: 10px;
+    
+
+}
+.para-hover h3::after{
+    content:url(images.png)
+}
+.para-hover:hover p{
+    display: inline-block;
+
+}
+.ul{
+    float: left;
+}
+.ul ol ul::marker{
+    color: red;
+    font-size: 25px;
+}
+/*</p>
+<div class="first-child">
+    <p>div first child</p>
+    <p>this is div second child</p>
+
+</div>
+<div class="child">
+    <p>Lorem ipsum, dolor sit amet consectetur</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+</div>
+<div class="para-hover">
+    <h3>Hover over this div element to show the p element</h3>
+    <p>Here I am!</p>
+</div>
+*/
+

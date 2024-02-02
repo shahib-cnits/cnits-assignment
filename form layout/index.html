@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="Spotify"> Registration form</h1>
+    <div class="main">
+        <div class="second">
+            <p id="frist-para">Create an accuont</p>
+            <p id="second-para">Complete from below to signup for Spotify accuont</p>
+            <div class="fldiv">
+                <div class="frist_name">
+                    <label for="fname" required>First Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First Name">
+                </div>
+                <div class="last_name">
+                    <label for="lname" required>Last Name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name">
+    
+                </div>
+
+            </div>
+            <div class="epdiv">
+                <div class="email">
+                    <label for="email" required>Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="email">
+                </div>
+                <div class="phone">
+                    <label for="phone" required>Phone:</label><br>
+                    <input type="text" id="phone" name="phone" placeholder="Phone" required>
+    
+                </div>
+
+            </div>
+            <div class="address">
+                <label for="address">Address Line 1:</label><br>
+                <input type="text" id="address" name="address" placeholder="Address Line 1">
+            </div>
+            <div class="address_2">
+                <label for="address_2">Address Line 2:</label><br>
+                <input type="text" id="address_2" name="address_2" placeholder="Address Line 2">
+            </div>
+            <div class="cspdiv">
+                
+                    <div class="city">
+                        <label for="city" required> City:</label><br>
+                        <input type="text" id="city" name="city" placeholder="City">
+                    </div>
+                    <div class="State">
+                        <label for="State" required>State/prov/region;</label><br>
+                        <input type="text" id="State" name="State" placeholder="State/prov/region">
+        
+                    </div>
+                    <div class="zip-code">
+                        <label for="zip-code" required>Zip-code:</label><br>
+                        <input type="text" id="zip-code" name="zip-code" placeholder="Zip-code">
+        
+                    </div>
+
+            </div>
+            <div class="country">
+                <label for="country" required>Country:</label><br>
+                <input list="country" name="browser" placeholder="Select Country">
+                    <datalist id="country">
+                        <option value="Bnagladesh">
+                        <option value="India">
+                        <option value="America">
+                        <option value="Sri-lanka">
+                        <option value="Pakistan">
+                    </datalist>
+            </div>
+            <div class="button">
+                <input type="submit" value="submit">
+            </div>
+            <P id="have-acc"> already have an account?<span>sign in</span></P>
+            
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: rgba(241, 204, 208, 0.76);
+}
+.form{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    border: transparent;
+    border-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 0px 15px 7px rgba( 0, 0, 0, 0.2);
+    margin: 100px 300px 300px 500px;
+}
+.form-coulum{
+    width: 50%;
+    border: transparent;
+    border-radius: 8px;
+    background-color: white;
+}
+.text-coulum{
+    width: 50%;
+    border: transparent;
+    border-radius: 0px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: linear-gradient(to right, #ff4550 5%, #ff4266 70%);
+}
+.form-coulum h2{
+    padding: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: 900;
+}
+.icon{
+    margin-top: 0px;
+    margin-left: 160px;
+    font-size: 30px;
+    
+}
+#account-para{
+    text-align: center;
+}
+.form-coulum input{
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 10px 0px 10px 10px;
+    border: none;
+    background-color: rgba(231, 229, 229, 0.651);
+    
+
+}
+.form-input{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.text-coulum h1{
+    color: white;
+    font-weight: 800;
+    margin-top: 150px;
+    text-align: center;
+    font-family: roboto;
+    font-weight: 900;
+
+
+}
+.text-coulum p{
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 1.5;
+
+}

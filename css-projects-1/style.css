@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times,;
+}
+body{
+    background-color:rgb(215, 218, 219);
+    padding:40px;
+}
+.body{
+    background-color:rgb(152, 209, 235);
+    padding: 40px;
+    width:100%;
+    height: 900px;
+}
+#welcome{
+    font-size: 50px;
+    color:white;
+    padding:30px;
+    padding-left: 10px;
+    
+
+}
+#use-the-menu{
+    font-size: 30px;
+    color:white;
+    padding:10px;
+
+}
+.first-div{
+    display: flex;
+    background-color: white;
+    padding:10px;
+}
+#same-page-para{
+    color:skyblue;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+#this-is-demon{
+    font-size: 20px;
+    margin-bottom: 0px;
+    
+}
+.link{
+    padding-bottom: 20px;
+}
+.link a{
+    color:skyblue;
+    font-size: 20px;
+}
+h3{
+    color:skyblue;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#no-style{
+    color:skyblue;
+    font-size: 20px;
+}
+#this-page{
+    font-size: 20px;
+}
+.item{
+    margin: 20px;
+}
+.item button{
+    width: 250px;
+    background-color: skyblue;
+    margin:10px;
+    font-size: 20px;
+    border:2px solid skyblue;
+    border-radius: 30px;
+    padding:10px;
+    
+
+}
+.item a{
+    color:white;
+    padding:5px;
+    text-decoration: none;
+}
+.item button:hover{
+    background-color: white;
+    color:skyblue;
+}
+.item a:hover{
+    color:skyblue;
+}
+#lorem{
+    color:skyblue;
+    padding-left: 10px;
+    font-size:20px;
+    padding-bottom: 20px;
+}
+#side-bar{
+    padding-top: 20px;
+    padding-left:10px;
+    
+}
+.side-lorem{
+    background-color: rgb(206, 230, 240);
+}
+#lorem50{
+    background-color: white;
+    padding:40px;
+    font-size: 20px;
+    
+    margin-top: 50px;
+
+}
+
+
