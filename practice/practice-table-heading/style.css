@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    width: 90%;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    
+}
+.child-1{
+    width: 30%;
+    border-left:1px solid black;
+    background-color: rgb(59, 163, 115);
+    position: relative;
+}
+.child-1 p{
+    position: absolute;
+    bottom: 30px;
+    /* transform: rotate(-90deg); */
+}
+.child-2{
+    width: 15%;
+    background-color: aqua;
+    position: relative;
+
+}
+.child-2 p{
+    position: absolute;
+    /* width: 100%; */
+    /* white-space: nowrap; */
+    bottom: 20px;
+    writing-mode: vertical-rl; 
+    transform: rotate(-180deg);
+}
+.child-3{
+    width: 10%;
+    background-color: rgb(20, 44, 44);
+    position: relative;
+
+}
+.child-3 p{
+    position: absolute;
+    bottom: 20px;
+    writing-mode: vertical-rl; 
+    transform: rotate(-180deg);
+}
+.child-4{
+    width: 15%;
+    background-color: rgb(102, 112, 199);
+    position: relative;
+
+}
+.child-4 p{
+    position: absolute;
+    writing-mode: vertical-rl;
+    bottom: 20px; 
+    transform: rotate(-180deg);
+}
+.child-5{
+    width: 20%;
+    background-color: brown;
+    position: relative;
+
+}
+.child-5 p{
+    position: absolute;
+    bottom: 20px;
+    writing-mode: vertical-rl; 
+    transform: rotate(-180deg);
+}
+.child-6{
+    width: 10%;
+    background-color:blueviolet;
+    position: relative;
+}
+.child-6 p{
+    position: absolute;
+    bottom: 20px;
+    writing-mode: vertical-rl; 
+    transform: rotate(-180deg);
+}
